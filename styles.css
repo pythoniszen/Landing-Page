@@ -25,7 +25,7 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
     display: flex;
-    height: 100px;
+    min-height: 100px;
     padding-left: 150px;
     padding-top: 10px;
     flex: 1;
@@ -38,7 +38,6 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
-    margin-bottom: -150px;
 }
 
 .container-2 {
@@ -46,16 +45,18 @@ body {
     background-color: #F9FAF8;
     color: #1f2937;
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
 
 .container-3 {
-    font-size: 48px;
+    font-size: 32px;
     color: #1f2937;
     background-color: #E5E7EB;
     flex: 2;
@@ -65,6 +66,14 @@ body {
     align-items: center;
 }
 
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    max-width: 950px;
+    margin-left: 0;
+}
+
 .container-4 {
     font-size: 48px;
     color: #F9FAF8;
@@ -72,6 +81,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.c-4-button {
+    background-color: #0061a8;
+    color: #E5E7EB;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: #E5E7EB 2px solid;
 }
 
 .footer {
@@ -101,7 +121,7 @@ body {
     background-color: #0061a8;
     color: #E5E7EB;
     height: 60px;
-    width: 120px;
+    width: 140px;
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -164,13 +184,15 @@ body {
 
 .blue-container {
     background-color: #0061a8;
-    height: 100px;
-    width: 1000px;
+    height: 200px;
+    width: 1300px;
     display: flex;
     justify-self: center;
     align-self: center;
     border-radius: 10px;
     margin: 100px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .c-4-text {
