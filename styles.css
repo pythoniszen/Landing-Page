@@ -38,25 +38,40 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
+    margin-bottom: -150px;
 }
 
 .container-2 {
     font-size: 48px;
-    color: #F9FAF8;
+    background-color: #F9FAF8;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-3 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #1f2937;
     background-color: #E5E7EB;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-4 {
     font-size: 48px;
     color: #F9FAF8;
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -65,7 +80,7 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
     display: flex;
-    height: 100px;
+    min-height: 100px;
     padding-left: 50px;
     flex: 1;
     justify-content: center;
@@ -84,10 +99,13 @@ body {
 
 .hero-button {
     background-color: #0061a8;
-    color: aliceblue;
+    color: #E5E7EB;
     height: 60px;
     width: 120px;
     font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
 }
 
 .logo-text {
@@ -129,4 +147,36 @@ body {
     padding-bottom: 64px;
     align-self: center;
     margin-bottom: 150px;
+}
+
+.c-2-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-2-img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: 4px solid #0061a8;
+    border-radius: 10px;
+}
+
+.blue-container {
+    background-color: #0061a8;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.c-4-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
