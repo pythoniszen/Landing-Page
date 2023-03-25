@@ -1,16 +1,132 @@
-/* Reset default styles */
+/* Apply to all */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Apply basic styles to the body */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #ff0101;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
 }
 
-/* Add your custom styles below */
+.header {
+    background-color: #1e2b3d;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;
+    height: 100px;
+    padding-left: 150px;
+    padding-top: 10px;
+    flex: 1;
+    display: flex;
+}
+
+.container-1 {
+    background-color: #1e2b3d;
+    flex: 2;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+}
+
+.container-2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    flex: 2;
+}
+
+.container-3 {
+    font-size: 48px;
+    color: #F9FAF8;
+    background-color: #E5E7EB;
+    flex: 2;
+}
+
+.container-4 {
+    font-size: 48px;
+    color: #F9FAF8;
+    flex: 2;
+}
+
+.footer {
+    background-color: #1e2b3d;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;
+    height: 100px;
+    padding-left: 50px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #0061a8;
+    color: aliceblue;
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    margin-top: 0px;
+}
+
+.logo-links {
+    padding: 5px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.hero-image {
+    height: 500px;
+    width: 500px;
+    padding-left: 64px;
+    padding-bottom: 64px;
+    align-self: center;
+    margin-bottom: 150px;
+}
