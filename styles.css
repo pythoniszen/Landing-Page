@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .header {
@@ -29,7 +29,6 @@ body {
     padding-left: 150px;
     padding-top: 10px;
     flex: 1;
-    display: flex;
 }
 
 .container-1 {
@@ -38,6 +37,10 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container-2 {
@@ -51,8 +54,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 26px;
-    margin-bottom: 26px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .container-3 {
@@ -64,6 +67,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote-text {
@@ -74,6 +79,14 @@ body {
     margin-left: 0;
 }
 
+.customer-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
 .container-4 {
     font-size: 48px;
     color: #F9FAF8;
@@ -81,6 +94,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .c-4-button {
@@ -90,8 +107,7 @@ body {
     width: 140px;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 20px;
-    border: #E5E7EB 2px solid;
+    border: #E5E7EB 3px solid;
 }
 
 .footer {
@@ -110,6 +126,7 @@ body {
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
+    flex: 1;
 }
 
 .hero-secondary {
@@ -126,6 +143,7 @@ body {
     border-radius: 10px;
     border: none;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo-text {
@@ -166,7 +184,6 @@ body {
     padding-left: 64px;
     padding-bottom: 64px;
     align-self: center;
-    margin-bottom: 150px;
 }
 
 .c-2-images {
@@ -178,13 +195,13 @@ body {
     height: 200px;
     width: 200px;
     margin: 20px;
-    border: 4px solid #0061a8;
+    border: 3px solid #0061a8;
     border-radius: 10px;
 }
 
 .blue-container {
     background-color: #0061a8;
-    height: 200px;
+    height: 150px;
     width: 1300px;
     display: flex;
     justify-self: center;
@@ -193,6 +210,8 @@ body {
     margin: 100px;
     align-items: center;
     justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .c-4-text {
@@ -201,4 +220,8 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.action-text, .c-4-button {
+    font-weight: bolder;
 }
